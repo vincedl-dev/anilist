@@ -1,13 +1,15 @@
 
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import Home from './components/Home';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-          <p>Starting for the Anime List</p>
-      </header>
-    </div>
+      <div className="App">
+        <Routes>
+            <Route path='/' element={<Home />}/>
+        </Routes>
+      </div>
   );
 }
 

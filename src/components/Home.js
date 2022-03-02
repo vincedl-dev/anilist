@@ -1,8 +1,7 @@
 const Home = () => {
     return (
         <div>
-            <div>this is the components</div>
-      
+            <div>This is the home component pages</div>
         </div>
     );
 }
